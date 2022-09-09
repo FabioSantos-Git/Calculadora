@@ -1,0 +1,88 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 23px;    
+    position: absolute;
+    user-select: none;
+    margin: 50px 35%;
+    background-color: silver;
+}
+fieldset{
+    width: 320px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+    background-color: rgb(0, 119, 119);     
+}
+#tela{
+    margin-top: 5px;
+    width: 320px;
+    height: 70px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgb(231, 231, 231);    
+}
+table{
+   margin-top: 20px;
+   margin-left: 0px; 
+   border-radius: 8px;
+   text-align: center;
+   background-color: azure;    
+    
+}
+td{
+    height: 61px;
+    width: 110px;
+    margin:10px 50px;
+}
+#operadores{
+    color: orange;
+    
+}
+
+td:active{
+    background-color: gray;
+    border-radius: 200px;
+    color: white;
+}
+
+@media (max-width: 600px){
+    body{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 27px;    
+        position: absolute;
+        user-select: none;  
+        margin: 0px; 
+        background-color: black;
+    
+    }
+       
+    fieldset{
+        margin: 5px;
+        width: 380px;
+        height: 700px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px black;
+    }
+    #tela{
+        margin-top: 5px;
+        width: 400px;
+        height: 90px;
+        border-radius: 8px;
+        text-align: center;
+        background-color: rgb(231, 231, 231);
+    }
+    table{
+       margin-top: 20px;
+       margin-left: 0px; 
+       border-radius: 8px;
+       text-align: center;
+       background-color: azure;    
+        
+    }
+    td{
+        height: 90px;
+        width: 130px;
+        margin:10px 50px;
+    }
+
+}
